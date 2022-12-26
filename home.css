@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+}
+
+.korijen {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.lijeva-strana {
+    height: 100%;
+    width: 300px;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.desna-strana {
+    height: 100%;
+    flex-grow: 1;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.lijeva-strana-gornji-dio {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:sans-serif;
+    
+}
+
+.lijeva-strana-donji-dio {
+    width: 100%;
+    height: 50%;
+    border-top: solid 1px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.desna-strana-gornji-dio {
+    width: 100%;
+    height: 50px;
+}
+
+.desna-strana-srednji-dio {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.desna-strana-donji-dio {
+    width: 100%;
+    height: 50px;
+}
